@@ -1,6 +1,7 @@
 import random
 
 def wallis():
+	a=1000000
 	product = 1
 	n=1
 	while (n<a):
@@ -9,6 +10,7 @@ def wallis():
 	return (product*2)	
 	
 def monte_carlo():
+	a=1000000
 	square = 0
 	circle = 0
 	n=0
